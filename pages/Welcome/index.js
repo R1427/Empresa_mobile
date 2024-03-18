@@ -33,7 +33,7 @@ const navigation = useNavigation();
 
                 <TouchableOpacity 
                 style={styles.button }
-                onPress={ () => navigation.navigate('Sigin')}
+                onPress={ () => navigation.navigate('Signin')}
                 >
                     <Text style={styles.buttontext}>Acessar</Text>
                 </TouchableOpacity>
